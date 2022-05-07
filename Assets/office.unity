@@ -178,6 +178,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   placeholder: Test placeholder
   mug: {fileID: 124788322}
+  cabinet: {fileID: 1066931756}
+  camera: {fileID: 1610702190}
 --- !u!114 &61799830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -499,7 +501,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fe4f54e9294c464cb65976dc8d29006, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 4
 --- !u!4 &265601494 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4fc11e4ee7f814ec2a2bc84f0ab8f72c, type: 3}
@@ -1032,6 +1034,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4fc11e4ee7f814ec2a2bc84f0ab8f72c, type: 3}
+--- !u!1 &1066931756 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d62c4f4c973324bd1b42a515b2639ccb, type: 3}
+  m_PrefabInstance: {fileID: 1608961524}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1608961524
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1106,6 +1113,7 @@ GameObject:
   - component: {fileID: 1610702190}
   - component: {fileID: 1610702189}
   - component: {fileID: 1610702192}
+  - component: {fileID: 1610702193}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1193,6 +1201,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   placeholder: Test placeholder
   mug: {fileID: 124788322}
+  cabinet: {fileID: 0}
+  camera: {fileID: 1610702190}
+--- !u!114 &1610702193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610702188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fe4f54e9294c464cb65976dc8d29006, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 7
 --- !u!1 &1628048145
 GameObject:
   m_ObjectHideFlags: 0
